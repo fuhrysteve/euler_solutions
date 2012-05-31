@@ -4,8 +4,7 @@ lpal = 0
 facs = []
 
 def is_a_pal(n):
-   l = list("%d" % (n))
-   return l[::-1] == l
+   return str(n)[::-1] == str(n)
 
 for i in xrange(100,999):
    for j in xrange(100,999):
